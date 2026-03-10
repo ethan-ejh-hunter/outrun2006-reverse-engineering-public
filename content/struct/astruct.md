@@ -4,7 +4,7 @@ current_name: "astruct"
 aliases: ["astruct"]
 tags: ["type/struct"]
 address: "astruct"
-last_sync: "2026-03-09"
+last_sync: "2026-03-10"
 ---
 
 > [!info] Auto-Generated Specs

@@ -4,7 +4,7 @@ current_name: "Elf32_RegInfo_MIPS"
 aliases: ["Elf32_RegInfo_MIPS"]
 tags: ["type/struct"]
 address: "Elf32_RegInfo_MIPS"
-last_sync: "2026-03-09"
+last_sync: "2026-03-10"
 ---
 
 > [!info] Auto-Generated Specs

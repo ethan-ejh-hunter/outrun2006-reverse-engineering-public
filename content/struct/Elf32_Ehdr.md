@@ -4,7 +4,7 @@ current_name: "Elf32_Ehdr"
 aliases: ["Elf32_Ehdr"]
 tags: ["type/struct"]
 address: "Elf32_Ehdr"
-last_sync: "2026-03-09"
+last_sync: "2026-03-10"
 ---
 
 > [!info] Auto-Generated Specs

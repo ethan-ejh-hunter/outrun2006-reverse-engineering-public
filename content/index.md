@@ -1,8 +1,5 @@
----
-title: Welcome to Quartz
----
+# Obsidian Vault Index
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
-
-hello!
+- [Function Index](function/index.md)
+- [Global Index](global/index.md)
+- [Struct Index](struct/index.md)

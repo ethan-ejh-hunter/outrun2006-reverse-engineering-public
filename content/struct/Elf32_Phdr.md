@@ -4,7 +4,7 @@ current_name: "Elf32_Phdr"
 aliases: ["Elf32_Phdr"]
 tags: ["type/struct"]
 address: "Elf32_Phdr"
-last_sync: "2026-03-09"
+last_sync: "2026-03-10"
 ---
 
 > [!info] Auto-Generated Specs

@@ -4,7 +4,7 @@ current_name: "sceSifDmaData"
 aliases: ["sceSifDmaData"]
 tags: ["type/struct"]
 address: "sceSifDmaData"
-last_sync: "2026-03-09"
+last_sync: "2026-03-10"
 ---
 
 > [!info] Auto-Generated Specs
