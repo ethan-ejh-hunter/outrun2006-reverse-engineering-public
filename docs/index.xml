@@ -6,6 +6,18 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/function/</link>
+    <guid>https://quartz.jzhao.xyz/function/</guid>
+    <description><![CDATA[ Function Index Documented: 541 No documentation: 7566 Documented __start_maybe? _DisableDmac _DisableIntc _EnableDmac _EnableIntc _iWakeupThread _StartThread _vsnprintf_internal_probably add_12 add_12 add_12 add_16 add_20 add_20 add_28 add_4 add_4 add_4 add_4 add_52 add_8 add_8 AddDmacHandler AddDma... ]]></description>
+    <pubDate>Thu, 12 Mar 2026 18:59:32 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/global/</link>
+    <guid>https://quartz.jzhao.xyz/global/</guid>
+    <description><![CDATA[ Global Index Total: 240 _mips_gp0_value alpha_num_str array_of_file_ops BlockAllocatorArray car_names current_car_index_prob current_open_file current_song_prob filenameArray_maybe_stages Fonts_Pointers g_ASCII_AttributeTable g_AudioCommandBuffer g_bitmask_for_file_handles g_CD_Init g_current_open_f... ]]></description>
+    <pubDate>Thu, 12 Mar 2026 18:59:32 GMT</pubDate>
+  </item><item>
     <title>daily_template</title>
     <link>https://quartz.jzhao.xyz/daily_template</link>
     <guid>https://quartz.jzhao.xyz/daily_template</guid>
@@ -48,22 +60,10 @@
     <description><![CDATA[ Struct Index Total: 26 _index astruct AudioCommandBuffer BlockAllocatorBlock CarMenuItem CarMenuManagerProbably DefaultAllocator Elf32_Ehdr Elf32_Phdr Elf32_RegInfo_MIPS Elf32_Shdr engine_state_funcs_maybe FileHandle FileInterface Heap_FreeBlock PackedFloat PackedResourceHeader PagedList RuntimeTabl... ]]></description>
     <pubDate>Thu, 12 Mar 2026 18:20:44 GMT</pubDate>
   </item><item>
-    <title>index</title>
-    <link>https://quartz.jzhao.xyz/function/</link>
-    <guid>https://quartz.jzhao.xyz/function/</guid>
-    <description><![CDATA[ Function Index Documented: 541 No documentation: 7566 Documented [__start_maybe?](functions_0x0010.md#0x001070A8 __start_maybe?) [_DisableDmac](functions_0x002b.md#0x002B0550 _DisableDmac) [_DisableIntc](functions_0x002b.md#0x002B0530 _DisableIntc) [_EnableDmac](functions_0x002b.md#0x002B0540 _Enabl... ]]></description>
-    <pubDate>Thu, 12 Mar 2026 18:20:44 GMT</pubDate>
-  </item><item>
     <title>globals_0x00345</title>
     <link>https://quartz.jzhao.xyz/global/globals_0x00345</link>
     <guid>https://quartz.jzhao.xyz/global/globals_0x00345</guid>
     <description><![CDATA[ Global Range 0x00345 Total globals: 3 0x00345698 Fonts_Pointers Auto-Generated Specs Symbol: Fonts_Pointers Type: undefined4 Source: USER_DEFINED Size: 4 Referenced By: Font_SetActive &quot;0x0&quot; Analysis empty for now Manual Relations empty for now 0x003456F0 VFS_state Auto-Generated Specs Symb... ]]></description>
-    <pubDate>Thu, 12 Mar 2026 18:20:44 GMT</pubDate>
-  </item><item>
-    <title>globals_0x0035a</title>
-    <link>https://quartz.jzhao.xyz/global/globals_0x0035a</link>
-    <guid>https://quartz.jzhao.xyz/global/globals_0x0035a</guid>
-    <description><![CDATA[ Global Range 0x0035a Total globals: 3 0x0035A638 g_HasFileIOBeenSetup Auto-Generated Specs Symbol: g_HasFileIOBeenSetup Type: undefined4 Source: USER_DEFINED Size: 4 Referenced By: setup_file_io &quot;0x0&quot; Analysis empty for now Manual Relations empty for now 0x0035A658 array_of_file_ops Auto-G... ]]></description>
     <pubDate>Thu, 12 Mar 2026 18:20:44 GMT</pubDate>
   </item>
     </channel>
