@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Quartz 4</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on Quartz 4</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>daily_template</title>
+    <link>https://quartz.jzhao.xyz/daily_template</link>
+    <guid>https://quartz.jzhao.xyz/daily_template</guid>
+    <description><![CDATA[ 🪵 RE Daily: {{date}} Current Goal: --- 📝 The Thread 💡 Discoveries &amp; “Aha!” Moments 🚧 Dead Ends &amp; Rabbit Holes 🎬 Wrap-up Summary: Morning Starting Point: . ]]></description>
+    <pubDate>Thu, 12 Mar 2026 18:41:51 GMT</pubDate>
+  </item><item>
+    <title>2026-03-12</title>
+    <link>https://quartz.jzhao.xyz/logs/2026-03-12</link>
+    <guid>https://quartz.jzhao.xyz/logs/2026-03-12</guid>
+    <description><![CDATA[ 🪵 RE Daily: 2026-03-12 Current Goal: Get the auto-upload/outputting working 📝 The Thread 💡 Discoveries &amp; “Aha!” Moments 🚧 Dead Ends &amp; Rabbit Holes 🎬 Wrap-up Summary: Morning Starting Point: . ]]></description>
+    <pubDate>Thu, 12 Mar 2026 18:41:51 GMT</pubDate>
+  </item><item>
+    <title>BlockAllocatorBlock</title>
+    <link>https://quartz.jzhao.xyz/struct/BlockAllocatorBlock</link>
+    <guid>https://quartz.jzhao.xyz/struct/BlockAllocatorBlock</guid>
+    <description><![CDATA[  Auto-Generated Specs Struct: BlockAllocatorBlock Size: 16 bytes Fields OffsetFieldTypeDescription0x0memory_being_managedvoid *0x4next_free_structBlockAllocatorBlock * (refs: BlockAllocatorBlock)BlockAllocatorBlock]])0x8chunk_sizeint0xCfree_headBlockAllocatorBlock * (refs: BlockAllocatorBlock)BlockA... ]]></description>
+    <pubDate>Thu, 12 Mar 2026 18:32:44 GMT</pubDate>
+  </item><item>
+    <title>FileInterface</title>
+    <link>https://quartz.jzhao.xyz/struct/FileInterface</link>
+    <guid>https://quartz.jzhao.xyz/struct/FileInterface</guid>
+    <description><![CDATA[  Auto-Generated Specs Struct: FileInterface Size: 28 bytes Fields OffsetFieldTypeDescription0x0fopenpointer0x4closepointer0x8freadpointer0xCblocking_freadpointer0x10seekpointer0x14get_sizepointer0x18submit_a_requestpointer Analysis empty for now Manual Relations empty for now. ]]></description>
+    <pubDate>Thu, 12 Mar 2026 18:20:44 GMT</pubDate>
+  </item><item>
+    <title>Heap_FreeBlock</title>
+    <link>https://quartz.jzhao.xyz/struct/Heap_FreeBlock</link>
+    <guid>https://quartz.jzhao.xyz/struct/Heap_FreeBlock</guid>
+    <description><![CDATA[  Auto-Generated Specs Struct: Heap_FreeBlock Size: 16 bytes Fields OffsetFieldTypeDescription0x0field_00_0int0x4sizeint0x8field_02_8uint0xCnext_blockint Analysis empty for now Manual Relations empty for now. ]]></description>
+    <pubDate>Thu, 12 Mar 2026 18:20:44 GMT</pubDate>
+  </item><item>
+    <title>PackedFloat</title>
+    <link>https://quartz.jzhao.xyz/struct/PackedFloat</link>
+    <guid>https://quartz.jzhao.xyz/struct/PackedFloat</guid>
+    <description><![CDATA[  Auto-Generated Specs Struct: PackedFloat Size: 8 bytes Fields OffsetFieldTypeDescription0x0float0float0x4float1float Analysis empty for now Manual Relations empty for now. ]]></description>
+    <pubDate>Thu, 12 Mar 2026 18:20:44 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/struct/</link>
+    <guid>https://quartz.jzhao.xyz/struct/</guid>
+    <description><![CDATA[ Struct Index Total: 26 _index astruct AudioCommandBuffer BlockAllocatorBlock CarMenuItem CarMenuManagerProbably DefaultAllocator Elf32_Ehdr Elf32_Phdr Elf32_RegInfo_MIPS Elf32_Shdr engine_state_funcs_maybe FileHandle FileInterface Heap_FreeBlock PackedFloat PackedResourceHeader PagedList RuntimeTabl... ]]></description>
+    <pubDate>Thu, 12 Mar 2026 18:20:44 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/function/</link>
+    <guid>https://quartz.jzhao.xyz/function/</guid>
+    <description><![CDATA[ Function Index Documented: 541 No documentation: 7566 Documented [__start_maybe?](functions_0x0010.md#0x001070A8 __start_maybe?) [_DisableDmac](functions_0x002b.md#0x002B0550 _DisableDmac) [_DisableIntc](functions_0x002b.md#0x002B0530 _DisableIntc) [_EnableDmac](functions_0x002b.md#0x002B0540 _Enabl... ]]></description>
+    <pubDate>Thu, 12 Mar 2026 18:20:44 GMT</pubDate>
+  </item><item>
+    <title>globals_0x00345</title>
+    <link>https://quartz.jzhao.xyz/global/globals_0x00345</link>
+    <guid>https://quartz.jzhao.xyz/global/globals_0x00345</guid>
+    <description><![CDATA[ Global Range 0x00345 Total globals: 3 0x00345698 Fonts_Pointers Auto-Generated Specs Symbol: Fonts_Pointers Type: undefined4 Source: USER_DEFINED Size: 4 Referenced By: Font_SetActive &quot;0x0&quot; Analysis empty for now Manual Relations empty for now 0x003456F0 VFS_state Auto-Generated Specs Symb... ]]></description>
+    <pubDate>Thu, 12 Mar 2026 18:20:44 GMT</pubDate>
+  </item><item>
+    <title>globals_0x0035a</title>
+    <link>https://quartz.jzhao.xyz/global/globals_0x0035a</link>
+    <guid>https://quartz.jzhao.xyz/global/globals_0x0035a</guid>
+    <description><![CDATA[ Global Range 0x0035a Total globals: 3 0x0035A638 g_HasFileIOBeenSetup Auto-Generated Specs Symbol: g_HasFileIOBeenSetup Type: undefined4 Source: USER_DEFINED Size: 4 Referenced By: setup_file_io &quot;0x0&quot; Analysis empty for now Manual Relations empty for now 0x0035A658 array_of_file_ops Auto-G... ]]></description>
+    <pubDate>Thu, 12 Mar 2026 18:20:44 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>index</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Quartz 4"/><meta property="og:title" content="index"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="index"/><meta name="twitter:description" content="Global Index Total: 240 [_mips_gp0_value](globals_0x0044b.md#0x0044BA70 _mips_gp0_value) [alpha_num_str](globals_0x003b6.md#0x003B65A8 alpha_num_str) [array_of_file_ops](globals_0x0035a.md#0x0035A658 array_of_file_ops) [BlockAllocatorArray](globals_0x005e7.md#0x005E7380 BlockAllocatorArray) [car_nam..."/><meta property="og:description" content="Global Index Total: 240 [_mips_gp0_value](globals_0x0044b.md#0x0044BA70 _mips_gp0_value) [alpha_num_str](globals_0x003b6.md#0x003B65A8 alpha_num_str) [array_of_file_ops](globals_0x0035a.md#0x0035A658 array_of_file_ops) [BlockAllocatorArray](globals_0x005e7.md#0x005E7380 BlockAllocatorArray) [car_nam..."/><meta property="og:image:alt" content="Global Index Total: 240 [_mips_gp0_value](globals_0x0044b.md#0x0044BA70 _mips_gp0_value) [alpha_num_str](globals_0x003b6.md#0x003B65A8 alpha_num_str) [array_of_file_ops](globals_0x0035a.md#0x0035A658 array_of_file_ops) [BlockAllocatorArray](globals_0x005e7.md#0x005E7380 BlockAllocatorArray) [car_nam..."/><meta property="twitter:domain" content="quartz.jzhao.xyz"/><meta property="og:url" content="https://quartz.jzhao.xyz/global/index"/><meta property="twitter:url" content="https://quartz.jzhao.xyz/global/index"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Global Index Total: 240 [_mips_gp0_value](globals_0x0044b.md#0x0044BA70 _mips_gp0_value) [alpha_num_str](globals_0x003b6.md#0x003B65A8 alpha_num_str) [array_of_file_ops](globals_0x0035a.md#0x0035A658 array_of_file_ops) [BlockAllocatorArray](globals_0x005e7.md#0x005E7380 BlockAllocatorArray) [car_nam..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://quartz.jzhao.xyz/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://quartz.jzhao.xyz/global/index-og-image.webp"/><meta property="og:image:url" content="https://quartz.jzhao.xyz/global/index-og-image.webp"/><meta name="twitter:image" content="https://quartz.jzhao.xyz/global/index-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="global/index"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">Quartz 4</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-5" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-3"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>global</a></div></nav><h1 class="article-title">index</h1><p show-comma="true" class="content-meta"><time datetime="2026-03-12T18:20:44.155Z">Mar 12, 2026</time><span>3 min read</span></p></div></div><div class="popover-hint"><article class><h1 id="global-index">Global Index<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#global-index" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Total: 240</p>
+<ul>
+<li>[_mips_gp0_value](globals_0x0044b.md#0x0044BA70 _mips_gp0_value)</li>
+<li>[alpha_num_str](globals_0x003b6.md#0x003B65A8 alpha_num_str)</li>
+<li>[array_of_file_ops](globals_0x0035a.md#0x0035A658 array_of_file_ops)</li>
+<li>[BlockAllocatorArray](globals_0x005e7.md#0x005E7380 BlockAllocatorArray)</li>
+<li>[car_names](globals_0x00376.md#0x00376B80 car_names)</li>
+<li>[current_car_index_prob](globals_0x00369.md#0x00369BE8 current_car_index_prob)</li>
+<li>[current_open_file](globals_0x00375.md#0x00375070 current_open_file)</li>
+<li>[current_song_prob](globals_0x005a2.md#0x005A2A7A current_song_prob)</li>
+<li>[filenameArray_maybe_stages](globals_0x3045a.md#0x3045A6C0 filenameArray_maybe_stages)</li>
+<li>[Fonts_Pointers](globals_0x00345.md#0x00345698 Fonts_Pointers)</li>
+<li>[g_ASCII_AttributeTable](globals_0x00424.md#0x00424EA1 g_ASCII_AttributeTable)</li>
+<li>[g_AudioCommandBuffer](globals_0x00531.md#0x005311C0 g_AudioCommandBuffer)</li>
+<li>[g_bitmask_for_file_handles](globals_0x00549.md#0x0054980C g_bitmask_for_file_handles)</li>
+<li>[g_CD_Init](globals_0x00357.md#0x00357A1C g_CD_Init)</li>
+<li>[g_current_open_file](globals_0x00345.md#0x003456F4 g_current_open_file)</li>
+<li>[g_CurrentFileSize](globals_0x00329.md#0x003293D0 g_CurrentFileSize)</li>
+<li>[g_CurrentSongIndex](globals_0x00444.md#0x00444580 g_CurrentSongIndex)</li>
+<li>[g_cursor_x](globals_0x00524.md#0x00524600 g_cursor_x)</li>
+<li>[g_cursor_y](globals_0x00524.md#0x00524602 g_cursor_y)</li>
+<li>[g_DynamicAllocHeap](globals_0x00374.md#0x00374788 g_DynamicAllocHeap)</li>
+<li>[g_exit_maybe](globals_0x00449.md#0x0044952C g_exit_maybe)</li>
+<li>[g_fancy_allocator_enabled](globals_0x00374.md#0x003747BC g_fancy_allocator_enabled)</li>
+<li>[g_file_handle_array](globals_0x00549.md#0x00549808 g_file_handle_array)</li>
+<li>[g_FileSomethingIndex](globals_0x00329.md#0x003293C8 g_FileSomethingIndex)</li>
+<li>[g_FileSomethingOffset](globals_0x00329.md#0x00329380 g_FileSomethingOffset)</li>
+<li>[g_HasFileIOBeenSetup](globals_0x0035a.md#0x0035A638 g_HasFileIOBeenSetup)</li>
+<li>[g_HasSomethingBeenInited](globals_0x00539.md#0x00539100 g_HasSomethingBeenInited)</li>
+<li>[g_HeapStack](globals_0x005e7.md#0x005E7350 g_HeapStack)</li>
+<li>[g_HeapStackPointer](globals_0x00374.md#0x00374780 g_HeapStackPointer)</li>
+<li>[g_mcManVersion](globals_0x0053b.md#0x0053B388 g_mcManVersion)</li>
+<li>[g_MCServeVersion](globals_0x0053b.md#0x0053B384 g_MCServeVersion)</li>
+<li>[g_more_height](globals_0x00524.md#0x00524628 g_more_height)</li>
+<li>[g_pfnDefaultAllocator](globals_0x00359.md#0x003599A0 g_pfnDefaultAllocator)</li>
+<li>[g_pIconCopy](globals_0x00449.md#0x004494B4 g_pIconCopy)</li>
+<li>[g_pIconDel](globals_0x00449.md#0x004494B8 g_pIconDel)</li>
+<li>[g_pIconView](globals_0x00449.md#0x004494B0 g_pIconView)</li>
+<li>[g_PingPongBufferIndex](globals_0x00531.md#0x005311D9 g_PingPongBufferIndex)</li>
+<li>[g_RegionID](globals_0x00329.md#0x00329414 g_RegionID)</li>
+<li>[g_SfxCache_Pointers](globals_0x00531.md#0x005319E8 g_SfxCache_Pointers)</li>
+<li>[g_SfxCache_Tags](globals_0x00531.md#0x005319D0 g_SfxCache_Tags)</li>
+<li>[g_some_height](globals_0x00524.md#0x00524606 g_some_height)</li>
+<li>[g_SongPlaying?](globals_0x00444.md#0x00444584 g_SongPlaying?)</li>
+<li>[g_space_amount](globals_0x00524.md#0x00524624 g_space_amount)</li>
+<li>[g_State_VTable](globals_0x003f9.md#0x003F9810 g_State_VTable)</li>
+<li>[g_StaticAllocHeap](globals_0x00374.md#0x0037478C g_StaticAllocHeap)</li>
+<li>[g_TypeNameArray](globals_0x003c7.md#0x003C7320 g_TypeNameArray)</li>
+<li>[g_x_line_start](globals_0x00524.md#0x005245FC g_x_line_start)</li>
+<li>[global_callback](globals_0x00443.md#0x00443B44 global_callback)</li>
+<li>[has_kearning_probably](globals_0x00524.md#0x005245EC has_kearning_probably)</li>
+<li>[language_something](globals_0x00353.md#0x0035319C language_something)</li>
+<li>[level_metadata_string_table_0](globals_0x0035a.md#0x0035A728 level_metadata_string_table_0)</li>
+<li>[level_metadata_string_table_1](globals_0x2035a.md#0x2035A728 level_metadata_string_table_1)</li>
+<li>[level_metadata_string_table_2](globals_0x3045a.md#0x3045A728 level_metadata_string_table_2)</li>
+<li>[load_level_state_prob](globals_0x00369.md#0x00369790 load_level_state_prob)</li>
+<li>[maybe_textures](globals_0x00524.md#0x005245F0 maybe_textures)</li>
+<li>[other_global_callback_pointer](globals_0x00443.md#0x00443B3C other_global_callback_pointer)</li>
+<li>[other_language_something](globals_0x00353.md#0x00353198 other_language_something)</li>
+<li>[other_ptr_to_array_of_file_ops](globals_0x00549.md#0x005497E4 other_ptr_to_array_of_file_ops)</li>
+<li>[pointer_to_array_of_file_ops](globals_0x00549.md#0x005497E0 pointer_to_array_of_file_ops)</li>
+<li>[pointer_to_struct_0x38_long](globals_0x005bf.md#0x005BF180 pointer_to_struct_0x38_long)</li>
+<li>[probably_shift_mode](globals_0x00369.md#0x00369BEA probably_shift_mode)</li>
+<li>[REG_DMAC_0_VIF0_ASR0](globals_0x10008.md#0x10008040 REG_DMAC_0_VIF0_ASR0)</li>
+<li>[REG_DMAC_0_VIF0_ASR1](globals_0x10008.md#0x10008050 REG_DMAC_0_VIF0_ASR1)</li>
+<li>[REG_DMAC_0_VIF0_CHCR](globals_0x10008.md#0x10008000 REG_DMAC_0_VIF0_CHCR)</li>
+<li>[REG_DMAC_0_VIF0_MADR](globals_0x10008.md#0x10008010 REG_DMAC_0_VIF0_MADR)</li>
+<li>[REG_DMAC_0_VIF0_QWC](globals_0x10008.md#0x10008020 REG_DMAC_0_VIF0_QWC)</li>
+<li>[REG_DMAC_0_VIF0_TADR](globals_0x10008.md#0x10008030 REG_DMAC_0_VIF0_TADR)</li>
+<li>[REG_DMAC_1_VIF1_ASR0](globals_0x10009.md#0x10009040 REG_DMAC_1_VIF1_ASR0)</li>
+<li>[REG_DMAC_1_VIF1_ASR1](globals_0x10009.md#0x10009050 REG_DMAC_1_VIF1_ASR1)</li>
+<li>[REG_DMAC_1_VIF1_CHCR](globals_0x10009.md#0x10009000 REG_DMAC_1_VIF1_CHCR)</li>
+<li>[REG_DMAC_1_VIF1_MADR](globals_0x10009.md#0x10009010 REG_DMAC_1_VIF1_MADR)</li>
+<li>[REG_DMAC_1_VIF1_QWC](globals_0x10009.md#0x10009020 REG_DMAC_1_VIF1_QWC)</li>
+<li>[REG_DMAC_1_VIF1_TADR](globals_0x10009.md#0x10009030 REG_DMAC_1_VIF1_TADR)</li>
+<li>[REG_DMAC_2_GIF_ASR0](globals_0x1000a.md#0x1000A040 REG_DMAC_2_GIF_ASR0)</li>
+<li>[REG_DMAC_2_GIF_ASR1](globals_0x1000a.md#0x1000A050 REG_DMAC_2_GIF_ASR1)</li>
+<li>[REG_DMAC_2_GIF_CHCR](globals_0x1000a.md#0x1000A000 REG_DMAC_2_GIF_CHCR)</li>
+<li>[REG_DMAC_2_GIF_MADR](globals_0x1000a.md#0x1000A010 REG_DMAC_2_GIF_MADR)</li>
+<li>[REG_DMAC_2_GIF_QWC](globals_0x1000a.md#0x1000A020 REG_DMAC_2_GIF_QWC)</li>
+<li>[REG_DMAC_2_GIF_TADR](globals_0x1000a.md#0x1000A030 REG_DMAC_2_GIF_TADR)</li>
+<li>[REG_DMAC_3_IPU_FROM_CHCR](globals_0x1000b.md#0x1000B000 REG_DMAC_3_IPU_FROM_CHCR)</li>
+<li>[REG_DMAC_3_IPU_FROM_MADR](globals_0x1000b.md#0x1000B010 REG_DMAC_3_IPU_FROM_MADR)</li>
+<li>[REG_DMAC_3_IPU_FROM_QWC](globals_0x1000b.md#0x1000B020 REG_DMAC_3_IPU_FROM_QWC)</li>
+<li>[REG_DMAC_3_IPU_FROM_TADR](globals_0x1000b.md#0x1000B030 REG_DMAC_3_IPU_FROM_TADR)</li>
+<li>[REG_DMAC_4_IPU_TO_CHCR](globals_0x1000b.md#0x1000B400 REG_DMAC_4_IPU_TO_CHCR)</li>
+<li>[REG_DMAC_4_IPU_TO_MADR](globals_0x1000b.md#0x1000B410 REG_DMAC_4_IPU_TO_MADR)</li>
+<li>[REG_DMAC_4_IPU_TO_QWC](globals_0x1000b.md#0x1000B420 REG_DMAC_4_IPU_TO_QWC)</li>
+<li>[REG_DMAC_4_IPU_TO_TADR](globals_0x1000b.md#0x1000B430 REG_DMAC_4_IPU_TO_TADR)</li>
+<li>[REG_DMAC_5_SIF0_CHCR](globals_0x1000c.md#0x1000C000 REG_DMAC_5_SIF0_CHCR)</li>
+<li>[REG_DMAC_5_SIF0_MADR](globals_0x1000c.md#0x1000C010 REG_DMAC_5_SIF0_MADR)</li>
+<li>[REG_DMAC_5_SIF0_QWC](globals_0x1000c.md#0x1000C020 REG_DMAC_5_SIF0_QWC)</li>
+<li>[REG_DMAC_5_SIF0_TADR](globals_0x1000c.md#0x1000C030 REG_DMAC_5_SIF0_TADR)</li>
+<li>[REG_DMAC_6_SIF1_CHCR](globals_0x1000c.md#0x1000C400 REG_DMAC_6_SIF1_CHCR)</li>
+<li>[REG_DMAC_6_SIF1_MADR](globals_0x1000c.md#0x1000C410 REG_DMAC_6_SIF1_MADR)</li>
+<li>[REG_DMAC_6_SIF1_QWC](globals_0x1000c.md#0x1000C420 REG_DMAC_6_SIF1_QWC)</li>
+<li>[REG_DMAC_6_SIF1_TADR](globals_0x1000c.md#0x1000C430 REG_DMAC_6_SIF1_TADR)</li>
+<li>[REG_DMAC_7_SIF2_CHCR](globals_0x1000c.md#0x1000C800 REG_DMAC_7_SIF2_CHCR)</li>
+<li>[REG_DMAC_7_SIF2_MADR](globals_0x1000c.md#0x1000C810 REG_DMAC_7_SIF2_MADR)</li>
+<li>[REG_DMAC_7_SIF2_QWC](globals_0x1000c.md#0x1000C820 REG_DMAC_7_SIF2_QWC)</li>
+<li>[REG_DMAC_7_SIF2_TADR](globals_0x1000c.md#0x1000C830 REG_DMAC_7_SIF2_TADR)</li>
+<li>[REG_DMAC_8_SPR_FROM_CHCR](globals_0x1000d.md#0x1000D000 REG_DMAC_8_SPR_FROM_CHCR)</li>
+<li>[REG_DMAC_8_SPR_FROM_MADR](globals_0x1000d.md#0x1000D010 REG_DMAC_8_SPR_FROM_MADR)</li>
+<li>[REG_DMAC_8_SPR_FROM_QWC](globals_0x1000d.md#0x1000D020 REG_DMAC_8_SPR_FROM_QWC)</li>
+<li>[REG_DMAC_8_SPR_FROM_SADR](globals_0x1000d.md#0x1000D080 REG_DMAC_8_SPR_FROM_SADR)</li>
+<li>[REG_DMAC_8_SPR_FROM_TADR](globals_0x1000d.md#0x1000D030 REG_DMAC_8_SPR_FROM_TADR)</li>
+<li>[REG_DMAC_9_SPR_TO_CHCR](globals_0x1000d.md#0x1000D400 REG_DMAC_9_SPR_TO_CHCR)</li>
+<li>[REG_DMAC_9_SPR_TO_MADR](globals_0x1000d.md#0x1000D410 REG_DMAC_9_SPR_TO_MADR)</li>
+<li>[REG_DMAC_9_SPR_TO_QWC](globals_0x1000d.md#0x1000D420 REG_DMAC_9_SPR_TO_QWC)</li>
+<li>[REG_DMAC_9_SPR_TO_SADR](globals_0x1000d.md#0x1000D480 REG_DMAC_9_SPR_TO_SADR)</li>
+<li>[REG_DMAC_9_SPR_TO_TADR](globals_0x1000d.md#0x1000D430 REG_DMAC_9_SPR_TO_TADR)</li>
+<li>[REG_DMAC_CTRL](globals_0x1000e.md#0x1000E000 REG_DMAC_CTRL)</li>
+<li>[REG_DMAC_ENABLER](globals_0x1000f.md#0x1000F520 REG_DMAC_ENABLER)</li>
+<li>[REG_DMAC_ENABLEW](globals_0x1000f.md#0x1000F590 REG_DMAC_ENABLEW)</li>
+<li>[REG_DMAC_PCR](globals_0x1000e.md#0x1000E020 REG_DMAC_PCR)</li>
+<li>[REG_DMAC_RBOR](globals_0x1000e.md#0x1000E050 REG_DMAC_RBOR)</li>
+<li>[REG_DMAC_RBSR](globals_0x1000e.md#0x1000E040 REG_DMAC_RBSR)</li>
+<li>[REG_DMAC_SQWC](globals_0x1000e.md#0x1000E030 REG_DMAC_SQWC)</li>
+<li>[REG_DMAC_STADR](globals_0x1000e.md#0x1000E060 REG_DMAC_STADR)</li>
+<li>[REG_DMAC_STAT](globals_0x1000e.md#0x1000E010 REG_DMAC_STAT)</li>
+<li>[REG_GIF_CNT](globals_0x10003.md#0x10003080 REG_GIF_CNT)</li>
+<li>[REG_GIF_CTRL](globals_0x10003.md#0x10003000 REG_GIF_CTRL)</li>
+<li>[REG_GIF_FIFO](globals_0x10006.md#0x10006000 REG_GIF_FIFO)</li>
+<li>[REG_GIF_MODE](globals_0x10003.md#0x10003010 REG_GIF_MODE)</li>
+<li>[REG_GIF_P3CNT](globals_0x10003.md#0x10003090 REG_GIF_P3CNT)</li>
+<li>[REG_GIF_P3TAG](globals_0x10003.md#0x100030A0 REG_GIF_P3TAG)</li>
+<li>[REG_GIF_STAT](globals_0x10003.md#0x10003020 REG_GIF_STAT)</li>
+<li>[REG_GIF_TAG0](globals_0x10003.md#0x10003040 REG_GIF_TAG0)</li>
+<li>[REG_GIF_TAG1](globals_0x10003.md#0x10003050 REG_GIF_TAG1)</li>
+<li>[REG_GIF_TAG2](globals_0x10003.md#0x10003060 REG_GIF_TAG2)</li>
+<li>[REG_GIF_TAG3](globals_0x10003.md#0x10003070 REG_GIF_TAG3)</li>
+<li>[REG_GS_BGCOLOR](globals_0x12000.md#0x120000E0 REG_GS_BGCOLOR)</li>
+<li>[REG_GS_BUSDIR](globals_0x12001.md#0x12001040 REG_GS_BUSDIR)</li>
+<li>[REG_GS_CSR](globals_0x12001.md#0x12001000 REG_GS_CSR)</li>
+<li>[REG_GS_DISPFB1](globals_0x12000.md#0x12000070 REG_GS_DISPFB1)</li>
+<li>[REG_GS_DISPFB2](globals_0x12000.md#0x12000090 REG_GS_DISPFB2)</li>
+<li>[REG_GS_DISPLAY1](globals_0x12000.md#0x12000080 REG_GS_DISPLAY1)</li>
+<li>[REG_GS_DISPLAY2](globals_0x12000.md#0x120000A0 REG_GS_DISPLAY2)</li>
+<li>[REG_GS_EXTBUF](globals_0x12000.md#0x120000B0 REG_GS_EXTBUF)</li>
+<li>[REG_GS_EXTDATA](globals_0x12000.md#0x120000C0 REG_GS_EXTDATA)</li>
+<li>[REG_GS_EXTWRITE](globals_0x12000.md#0x120000D0 REG_GS_EXTWRITE)</li>
+<li>[REG_GS_IMR](globals_0x12001.md#0x12001010 REG_GS_IMR)</li>
+<li>[REG_GS_PMODE](globals_0x12000.md#0x12000000 REG_GS_PMODE)</li>
+<li>[REG_GS_SIGLBLID](globals_0x12001.md#0x12001080 REG_GS_SIGLBLID)</li>
+<li>[REG_GS_SMODE1](globals_0x12000.md#0x12000010 REG_GS_SMODE1)</li>
+<li>[REG_GS_SMODE2](globals_0x12000.md#0x12000020 REG_GS_SMODE2)</li>
+<li>[REG_GS_SRFSH](globals_0x12000.md#0x12000030 REG_GS_SRFSH)</li>
+<li>[REG_GS_SYNCH1](globals_0x12000.md#0x12000040 REG_GS_SYNCH1)</li>
+<li>[REG_GS_SYNCH2](globals_0x12000.md#0x12000050 REG_GS_SYNCH2)</li>
+<li>[REG_GS_SYNCV](globals_0x12000.md#0x12000060 REG_GS_SYNCV)</li>
+<li>[REG_INTC_MASK](globals_0x1000f.md#0x1000F010 REG_INTC_MASK)</li>
+<li>[REG_INTC_STAT](globals_0x1000f.md#0x1000F000 REG_INTC_STAT)</li>
+<li>[REG_IPU_BP](globals_0x10002.md#0x10002020 REG_IPU_BP)</li>
+<li>[REG_IPU_CMD](globals_0x10002.md#0x10002000 REG_IPU_CMD)</li>
+<li>[REG_IPU_CTRL](globals_0x10002.md#0x10002010 REG_IPU_CTRL)</li>
+<li>[REG_IPU_IN_FIFO](globals_0x10007.md#0x10007010 REG_IPU_IN_FIFO)</li>
+<li>[REG_IPU_OUT_FIFO](globals_0x10007.md#0x10007000 REG_IPU_OUT_FIFO)</li>
+<li>[REG_IPU_TOP](globals_0x10002.md#0x10002030 REG_IPU_TOP)</li>
+<li>[REG_MCH_DRD](globals_0x1000f.md#0x1000F440 REG_MCH_DRD)</li>
+<li>[REG_MCH_RICM](globals_0x1000f.md#0x1000F430 REG_MCH_RICM)</li>
+<li>[REG_RCNT0_COUNT](globals_0x10000.md#0x10000000 REG_RCNT0_COUNT)</li>
+<li>[REG_RCNT0_HOLD](globals_0x10000.md#0x10000030 REG_RCNT0_HOLD)</li>
+<li>[REG_RCNT0_MODE](globals_0x10000.md#0x10000010 REG_RCNT0_MODE)</li>
+<li>[REG_RCNT0_TARGET](globals_0x10000.md#0x10000020 REG_RCNT0_TARGET)</li>
+<li>[REG_RCNT1_COUNT](globals_0x10000.md#0x10000800 REG_RCNT1_COUNT)</li>
+<li>[REG_RCNT1_HOLD](globals_0x10000.md#0x10000830 REG_RCNT1_HOLD)</li>
+<li>[REG_RCNT1_MODE](globals_0x10000.md#0x10000810 REG_RCNT1_MODE)</li>
+<li>[REG_RCNT1_TARGET](globals_0x10000.md#0x10000820 REG_RCNT1_TARGET)</li>
+<li>[REG_RCNT2_COUNT](globals_0x10001.md#0x10001000 REG_RCNT2_COUNT)</li>
+<li>[REG_RCNT2_MODE](globals_0x10001.md#0x10001010 REG_RCNT2_MODE)</li>
+<li>[REG_RCNT2_TARGET](globals_0x10001.md#0x10001020 REG_RCNT2_TARGET)</li>
+<li>[REG_RCNT3_COUNT](globals_0x10001.md#0x10001800 REG_RCNT3_COUNT)</li>
+<li>[REG_RCNT3_MODE](globals_0x10001.md#0x10001810 REG_RCNT3_MODE)</li>
+<li>[REG_RCNT3_TARGET](globals_0x10001.md#0x10001820 REG_RCNT3_TARGET)</li>
+<li>[REG_SIF_CONTROL](globals_0x1000f.md#0x1000F240 REG_SIF_CONTROL)</li>
+<li>[REG_SIF_F250](globals_0x1000f.md#0x1000F250 REG_SIF_F250)</li>
+<li>[REG_SIF_F260](globals_0x1000f.md#0x1000F260 REG_SIF_F260)</li>
+<li>[REG_SIF_F300](globals_0x1000f.md#0x1000F300 REG_SIF_F300)</li>
+<li>[REG_SIF_F380](globals_0x1000f.md#0x1000F380 REG_SIF_F380)</li>
+<li>[REG_SIF_MSCOM](globals_0x1000f.md#0x1000F200 REG_SIF_MSCOM)</li>
+<li>[REG_SIF_MSFLAG](globals_0x1000f.md#0x1000F220 REG_SIF_MSFLAG)</li>
+<li>[REG_SIF_SMCOM](globals_0x1000f.md#0x1000F210 REG_SIF_SMCOM)</li>
+<li>[REG_SIF_SMFLAG](globals_0x1000f.md#0x1000F230 REG_SIF_SMFLAG)</li>
+<li>[REG_SIO_BGR](globals_0x1000f.md#0x1000F150 REG_SIO_BGR)</li>
+<li>[REG_SIO_FCR](globals_0x1000f.md#0x1000F140 REG_SIO_FCR)</li>
+<li>[REG_SIO_IER](globals_0x1000f.md#0x1000F120 REG_SIO_IER)</li>
+<li>[REG_SIO_ISR](globals_0x1000f.md#0x1000F130 REG_SIO_ISR)</li>
+<li>[REG_SIO_LCR](globals_0x1000f.md#0x1000F100 REG_SIO_LCR)</li>
+<li>[REG_SIO_LSR](globals_0x1000f.md#0x1000F110 REG_SIO_LSR)</li>
+<li>[REG_SIO_RXFIFO](globals_0x1000f.md#0x1000F1C0 REG_SIO_RXFIFO)</li>
+<li>[REG_SIO_TXFIFO](globals_0x1000f.md#0x1000F180 REG_SIO_TXFIFO)</li>
+<li>[REG_VIF0_CODE](globals_0x10003.md#0x10003880 REG_VIF0_CODE)</li>
+<li>[REG_VIF0_COL0](globals_0x10003.md#0x10003940 REG_VIF0_COL0)</li>
+<li>[REG_VIF0_COL1](globals_0x10003.md#0x10003950 REG_VIF0_COL1)</li>
+<li>[REG_VIF0_COL2](globals_0x10003.md#0x10003960 REG_VIF0_COL2)</li>
+<li>[REG_VIF0_COL3](globals_0x10003.md#0x10003970 REG_VIF0_COL3)</li>
+<li>[REG_VIF0_CYCLE](globals_0x10003.md#0x10003840 REG_VIF0_CYCLE)</li>
+<li>[REG_VIF0_ERR](globals_0x10003.md#0x10003820 REG_VIF0_ERR)</li>
+<li>[REG_VIF0_FBRST](globals_0x10003.md#0x10003810 REG_VIF0_FBRST)</li>
+<li>[REG_VIF0_FIFO](globals_0x10004.md#0x10004000 REG_VIF0_FIFO)</li>
+<li>[REG_VIF0_ITOP](globals_0x10003.md#0x100038D0 REG_VIF0_ITOP)</li>
+<li>[REG_VIF0_ITOPS](globals_0x10003.md#0x10003890 REG_VIF0_ITOPS)</li>
+<li>[REG_VIF0_MARK](globals_0x10003.md#0x10003830 REG_VIF0_MARK)</li>
+<li>[REG_VIF0_MASK](globals_0x10003.md#0x10003870 REG_VIF0_MASK)</li>
+<li>[REG_VIF0_MODE](globals_0x10003.md#0x10003850 REG_VIF0_MODE)</li>
+<li>[REG_VIF0_NUM](globals_0x10003.md#0x10003860 REG_VIF0_NUM)</li>
+<li>[REG_VIF0_ROW0](globals_0x10003.md#0x10003900 REG_VIF0_ROW0)</li>
+<li>[REG_VIF0_ROW1](globals_0x10003.md#0x10003910 REG_VIF0_ROW1)</li>
+<li>[REG_VIF0_ROW2](globals_0x10003.md#0x10003920 REG_VIF0_ROW2)</li>
+<li>[REG_VIF0_ROW3](globals_0x10003.md#0x10003930 REG_VIF0_ROW3)</li>
+<li>[REG_VIF0_STAT](globals_0x10003.md#0x10003800 REG_VIF0_STAT)</li>
+<li>[REG_VIF0_TOP](globals_0x10003.md#0x100038E0 REG_VIF0_TOP)</li>
+<li>[REG_VIF1_BASE](globals_0x10003.md#0x10003CA0 REG_VIF1_BASE)</li>
+<li>[REG_VIF1_CODE](globals_0x10003.md#0x10003C80 REG_VIF1_CODE)</li>
+<li>[REG_VIF1_COL0](globals_0x10003.md#0x10003D40 REG_VIF1_COL0)</li>
+<li>[REG_VIF1_COL1](globals_0x10003.md#0x10003D50 REG_VIF1_COL1)</li>
+<li>[REG_VIF1_COL2](globals_0x10003.md#0x10003D60 REG_VIF1_COL2)</li>
+<li>[REG_VIF1_COL3](globals_0x10003.md#0x10003D70 REG_VIF1_COL3)</li>
+<li>[REG_VIF1_CYCLE](globals_0x10003.md#0x10003C40 REG_VIF1_CYCLE)</li>
+<li>[REG_VIF1_ERR](globals_0x10003.md#0x10003C20 REG_VIF1_ERR)</li>
+<li>[REG_VIF1_FBRST](globals_0x10003.md#0x10003C10 REG_VIF1_FBRST)</li>
+<li>[REG_VIF1_FIFO](globals_0x10005.md#0x10005000 REG_VIF1_FIFO)</li>
+<li>[REG_VIF1_ITOP](globals_0x10003.md#0x10003CD0 REG_VIF1_ITOP)</li>
+<li>[REG_VIF1_ITOPS](globals_0x10003.md#0x10003C90 REG_VIF1_ITOPS)</li>
+<li>[REG_VIF1_MARK](globals_0x10003.md#0x10003C30 REG_VIF1_MARK)</li>
+<li>[REG_VIF1_MASK](globals_0x10003.md#0x10003C70 REG_VIF1_MASK)</li>
+<li>[REG_VIF1_MODE](globals_0x10003.md#0x10003C50 REG_VIF1_MODE)</li>
+<li>[REG_VIF1_NUM](globals_0x10003.md#0x10003C60 REG_VIF1_NUM)</li>
+<li>[REG_VIF1_OFST](globals_0x10003.md#0x10003CB0 REG_VIF1_OFST)</li>
+<li>[REG_VIF1_ROW0](globals_0x10003.md#0x10003D00 REG_VIF1_ROW0)</li>
+<li>[REG_VIF1_ROW1](globals_0x10003.md#0x10003D10 REG_VIF1_ROW1)</li>
+<li>[REG_VIF1_ROW2](globals_0x10003.md#0x10003D20 REG_VIF1_ROW2)</li>
+<li>[REG_VIF1_ROW3](globals_0x10003.md#0x10003D30 REG_VIF1_ROW3)</li>
+<li>[REG_VIF1_STAT](globals_0x10003.md#0x10003C00 REG_VIF1_STAT)</li>
+<li>[REG_VIF1_TOP](globals_0x10003.md#0x10003CE0 REG_VIF1_TOP)</li>
+<li>[REG_VIF1_TOPS](globals_0x10003.md#0x10003CC0 REG_VIF1_TOPS)</li>
+<li>[region_string_pointer](globals_0x00532.md#0x005322D0 region_string_pointer)</li>
+<li>[run_flag](globals_0x0059b.md#0x0059B690 run_flag)</li>
+<li>[sz_SoundPath_Generic](globals_0x00353.md#0x003531C0 sz_SoundPath_Generic)</li>
+<li>[sz_SoundPath_Local](globals_0x00353.md#0x00353120 sz_SoundPath_Local)</li>
+<li>[text_scale_factor](globals_0x00524.md#0x0052460C text_scale_factor)</li>
+<li>[VFS_state](globals_0x00345.md#0x003456F0 VFS_state)</li>
+</ul></article><div class="page-listing"><p>48 items under this folder.</p><div><ul class="section-ul"><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:20:44.155Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x00345" class="internal">globals_0x00345</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:20:44.155Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x0035a" class="internal">globals_0x0035a</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:20:44.155Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x00374" class="internal">globals_0x00374</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:20:44.155Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x00444" class="internal">globals_0x00444</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:20:44.155Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x00449" class="internal">globals_0x00449</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:20:44.155Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x00531" class="internal">globals_0x00531</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:20:44.155Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x00539" class="internal">globals_0x00539</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:20:44.155Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x00549" class="internal">globals_0x00549</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:20:44.155Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x005bf" class="internal">globals_0x005bf</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:20:44.155Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x005e7" class="internal">globals_0x005e7</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x00329" class="internal">globals_0x00329</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x00353" class="internal">globals_0x00353</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x00357" class="internal">globals_0x00357</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x00359" class="internal">globals_0x00359</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x00369" class="internal">globals_0x00369</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x00375" class="internal">globals_0x00375</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x00376" class="internal">globals_0x00376</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x003b6" class="internal">globals_0x003b6</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x003c7" class="internal">globals_0x003c7</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x003f9" class="internal">globals_0x003f9</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x00424" class="internal">globals_0x00424</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x00443" class="internal">globals_0x00443</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x0044b" class="internal">globals_0x0044b</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x00524" class="internal">globals_0x00524</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x00532" class="internal">globals_0x00532</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x0053b" class="internal">globals_0x0053b</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x0059b" class="internal">globals_0x0059b</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x005a2" class="internal">globals_0x005a2</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x10000" class="internal">globals_0x10000</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x10001" class="internal">globals_0x10001</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x10002" class="internal">globals_0x10002</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x10003" class="internal">globals_0x10003</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x10004" class="internal">globals_0x10004</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x10005" class="internal">globals_0x10005</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x10006" class="internal">globals_0x10006</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x10007" class="internal">globals_0x10007</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x10008" class="internal">globals_0x10008</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x10009" class="internal">globals_0x10009</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x1000a" class="internal">globals_0x1000a</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x1000b" class="internal">globals_0x1000b</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x1000c" class="internal">globals_0x1000c</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x1000d" class="internal">globals_0x1000d</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x1000e" class="internal">globals_0x1000e</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x1000f" class="internal">globals_0x1000f</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x12000" class="internal">globals_0x12000</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x12001" class="internal">globals_0x12001</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x2035a" class="internal">globals_0x2035a</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-03-12T18:01:55.567Z">Mar 12, 2026</time></p><div class="desc"><h3><a href="../global/globals_0x3045a" class="internal">globals_0x3045a</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../tags/type/global_range">type/global_range</a></li></ul></div></li></ul></div></div></div><hr/><div class="page-footer"></div></div><div class="right sidebar"></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>
