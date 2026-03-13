@@ -6,6 +6,12 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>function</title>
+    <link>https://quartz.jzhao.xyz/function</link>
+    <guid>https://quartz.jzhao.xyz/function</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 12 Mar 2026 18:59:32 GMT</pubDate>
+  </item><item>
     <title>index</title>
     <link>https://quartz.jzhao.xyz/function/</link>
     <guid>https://quartz.jzhao.xyz/function/</guid>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/struct/</link>
     <guid>https://quartz.jzhao.xyz/struct/</guid>
     <description><![CDATA[ Struct Index Total: 26 _index astruct AudioCommandBuffer BlockAllocatorBlock CarMenuItem CarMenuManagerProbably DefaultAllocator Elf32_Ehdr Elf32_Phdr Elf32_RegInfo_MIPS Elf32_Shdr engine_state_funcs_maybe FileHandle FileInterface Heap_FreeBlock PackedFloat PackedResourceHeader PagedList RuntimeTabl... ]]></description>
-    <pubDate>Thu, 12 Mar 2026 18:20:44 GMT</pubDate>
-  </item><item>
-    <title>globals_0x00345</title>
-    <link>https://quartz.jzhao.xyz/global/globals_0x00345</link>
-    <guid>https://quartz.jzhao.xyz/global/globals_0x00345</guid>
-    <description><![CDATA[ Global Range 0x00345 Total globals: 3 0x00345698 Fonts_Pointers Auto-Generated Specs Symbol: Fonts_Pointers Type: undefined4 Source: USER_DEFINED Size: 4 Referenced By: Font_SetActive &quot;0x0&quot; Analysis empty for now Manual Relations empty for now 0x003456F0 VFS_state Auto-Generated Specs Symb... ]]></description>
     <pubDate>Thu, 12 Mar 2026 18:20:44 GMT</pubDate>
   </item>
     </channel>
