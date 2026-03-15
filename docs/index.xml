@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>globals_0x00443</title>
-    <link>https://quartz.jzhao.xyz/global/globals_0x00443</link>
-    <guid>https://quartz.jzhao.xyz/global/globals_0x00443</guid>
-    <description><![CDATA[ Global Range 0x00443 Total globals: 3 0x00443B3C other_global_callback_pointer Auto-Generated Specs Symbol: other_global_callback_pointer Type: undefined4 Source: USER_DEFINED Size: 4 Referenced By: stub_void, stub_void, run_global_callback_function &quot;0x0&quot; Analysis empty for now Manual Rela... ]]></description>
-    <pubDate>Fri, 13 Mar 2026 05:31:05 GMT</pubDate>
-  </item><item>
-    <title>globals_0x0044b</title>
-    <link>https://quartz.jzhao.xyz/global/globals_0x0044b</link>
-    <guid>https://quartz.jzhao.xyz/global/globals_0x0044b</guid>
-    <description><![CDATA[ Global Range 0x0044b Total globals: 1 0x0044BA70 _mips_gp0_value Auto-Generated Specs Symbol: _mips_gp0_value Type: undefined1 Source: IMPORTED Size: 1 Referenced By: FUN_00107cb8, setup_file_io, FUN_0012ef90, FUN_0012d908, FUN_00161ee8, entry, FUN_0012d2a8, FUN_002b1388, FUN_00141790, FUN_0013c810,... ]]></description>
-    <pubDate>Fri, 13 Mar 2026 05:31:05 GMT</pubDate>
-  </item><item>
-    <title>globals_0x0059b</title>
-    <link>https://quartz.jzhao.xyz/global/globals_0x0059b</link>
-    <guid>https://quartz.jzhao.xyz/global/globals_0x0059b</guid>
-    <description><![CDATA[ Global Range 0x0059b Total globals: 3 0x0059B690 g_skip_flag Auto-Generated Specs Symbol: g_skip_flag Type: undefined4 Source: USER_DEFINED Size: 4 Referenced By: FUN_001b4ea8, Engine_DoTick, FUN_001b4fc8 null Analysis empty for now Manual Relations empty for now 0x0059B694 g_NextState? Auto-Generat... ]]></description>
-    <pubDate>Fri, 13 Mar 2026 05:31:05 GMT</pubDate>
-  </item><item>
-    <title>globals_0x005e7</title>
-    <link>https://quartz.jzhao.xyz/global/globals_0x005e7</link>
-    <guid>https://quartz.jzhao.xyz/global/globals_0x005e7</guid>
-    <description><![CDATA[ Global Range 0x005e7 Total globals: 2 0x005E7350 g_HeapStack Auto-Generated Specs Symbol: g_HeapStack Type: HeapType[4] Source: USER_DEFINED Size: 16 Referenced By: Mem_GetCurrentHeap, MEM_PushNewHeap, MEM_PopHeap { &quot;kind&quot;: &quot;array&quot;, &quot;element_type&quot;: &quot;HeapType&quot;,... ]]></description>
-    <pubDate>Fri, 13 Mar 2026 05:31:05 GMT</pubDate>
-  </item><item>
     <title>index</title>
-    <link>https://quartz.jzhao.xyz/global/</link>
-    <guid>https://quartz.jzhao.xyz/global/</guid>
-    <description><![CDATA[ Global Index Total: 250 _mips_gp0_value alpha_num_str array_of_file_ops BlockAllocatorArray car_names current_car_index_prob current_open_file current_song_prob filenameArray_maybe_stages Fonts_Pointers g_ASCII_AttributeTable g_AudioCommandBuffer g_bitmask_for_file_handles g_CD_Init g_current_open_f... ]]></description>
-    <pubDate>Fri, 13 Mar 2026 05:31:05 GMT</pubDate>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description><![CDATA[ Obsidian Vault Index Function Index Global Index Struct Index Introduction Hey! This is a project I’m working on in my free time, to learn more about Outrun 2006: Coast 2 Coast’s internals, and to have fun doing it. ]]></description>
+    <pubDate>Sun, 15 Mar 2026 08:11:14 GMT</pubDate>
   </item><item>
     <title>2026-03-12</title>
     <link>https://quartz.jzhao.xyz/logs/2026-03-12</link>
     <guid>https://quartz.jzhao.xyz/logs/2026-03-12</guid>
     <description><![CDATA[ RE Daily: 2026-03-12 Current Goal: Get the auto-upload/outputting working… We’re done. Some interesting stuff from today. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 05:31:05 GMT</pubDate>
+    <pubDate>Sun, 15 Mar 2026 08:11:14 GMT</pubDate>
   </item><item>
-    <title>SymbolEntry</title>
-    <link>https://quartz.jzhao.xyz/struct/SymbolEntry</link>
-    <guid>https://quartz.jzhao.xyz/struct/SymbolEntry</guid>
-    <description><![CDATA[  Auto-Generated Specs Struct: SymbolEntry Size: 12 bytes Fields OffsetFieldTypeDescription0x0symbol_namechar *0x4definitionvoid *0x8not_sureint Analysis empty for now Manual Relations empty for now. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 05:31:05 GMT</pubDate>
+    <title>2026-03-13</title>
+    <link>https://quartz.jzhao.xyz/logs/2026-03-13</link>
+    <guid>https://quartz.jzhao.xyz/logs/2026-03-13</guid>
+    <description><![CDATA[ RE Daily: 2026-03-13 I’m digging more into the state machine stuff, looking through the variables… It’s sorta odd what it does in a lot of cases: (here are a few pieces of pseudocode) if ((g_currentState != 0x13) &amp;&amp; (g_currentState == 0x1b) &amp;&amp; .. ]]></description>
+    <pubDate>Sun, 15 Mar 2026 08:11:14 GMT</pubDate>
   </item><item>
-    <title>UIElement</title>
-    <link>https://quartz.jzhao.xyz/struct/UIElement</link>
-    <guid>https://quartz.jzhao.xyz/struct/UIElement</guid>
-    <description><![CDATA[  Auto-Generated Specs Struct: UIElement Size: 1144 bytes Fields OffsetFieldTypeDescription0x0vtableUIElement_VTable * (refs: UIElement_VTable)UIElement_VTable]])0x4field_01_4undefined0x5field_02_5undefined0x6field_03_6undefined0x7field_04_7undefined0x8field_05_8undefined0x9field_06_9undefined0xAfiel... ]]></description>
-    <pubDate>Fri, 13 Mar 2026 05:31:05 GMT</pubDate>
+    <title>2026-03-14</title>
+    <link>https://quartz.jzhao.xyz/logs/2026-03-14</link>
+    <guid>https://quartz.jzhao.xyz/logs/2026-03-14</guid>
+    <description><![CDATA[ RE Daily: 2026-03-14 I wish I had more updates today, I’m just glad I did some work on it. ]]></description>
+    <pubDate>Sun, 15 Mar 2026 08:11:14 GMT</pubDate>
   </item><item>
-    <title>index</title>
-    <link>https://quartz.jzhao.xyz/struct/</link>
-    <guid>https://quartz.jzhao.xyz/struct/</guid>
-    <description><![CDATA[ Struct Index Total: 27 _index astruct AudioCommandBuffer BlockAllocatorBlock CarMenuItem CarMenuManagerProbably DefaultAllocator Elf32_Ehdr Elf32_Phdr Elf32_RegInfo_MIPS Elf32_Shdr engine_state_funcs_maybe FileHandle FileInterface Heap_FreeBlock PackedFloat PackedResourceHeader PagedList RuntimeTabl... ]]></description>
-    <pubDate>Fri, 13 Mar 2026 05:31:05 GMT</pubDate>
+    <title>AllocedMemDescriptor</title>
+    <link>https://quartz.jzhao.xyz/struct/AllocedMemDescriptor</link>
+    <guid>https://quartz.jzhao.xyz/struct/AllocedMemDescriptor</guid>
+    <description><![CDATA[  Auto-Generated Specs Struct: AllocedMemDescriptor Size: 16 bytes Fields OffsetFieldTypeDescription0x0pDatavoid *0x4AssetTypeint0x8field_02_8int0xCfield_03_Cint Analysis empty for now Manual Relations empty for now. ]]></description>
+    <pubDate>Sun, 15 Mar 2026 08:11:14 GMT</pubDate>
   </item><item>
-    <title>functions_0x002d</title>
-    <link>https://quartz.jzhao.xyz/function/functions_0x002d</link>
-    <guid>https://quartz.jzhao.xyz/function/functions_0x002d</guid>
-    <description><![CDATA[ Function Range 0x002d Total functions: 235 0x002D0010 FUN_002d0010 Auto-Generated Specs Signature: undefined FUN_002d0010(void) Type Details: undefined FUN_002d0010(void) Calls: stub_void, unk_class_getter_func, identity_function, FUN_002d1d90 Called By: none Analysis empty for now Manual Relations ... ]]></description>
-    <pubDate>Fri, 13 Mar 2026 05:31:05 GMT</pubDate>
+    <title>BlockAllocatorBlock</title>
+    <link>https://quartz.jzhao.xyz/struct/BlockAllocatorBlock</link>
+    <guid>https://quartz.jzhao.xyz/struct/BlockAllocatorBlock</guid>
+    <description><![CDATA[  Auto-Generated Specs Struct: BlockAllocatorBlock Size: 16 bytes Fields OffsetFieldTypeDescription0x0memory_being_managedvoid *0x4next_free_structBlockAllocatorBlock * (refs: BlockAllocatorBlock)BlockAllocatorBlock]])0x8chunk_sizeint0xCfree_headBlockAllocatorBlock * (refs: BlockAllocatorBlock)BlockA... ]]></description>
+    <pubDate>Sun, 15 Mar 2026 08:11:14 GMT</pubDate>
+  </item><item>
+    <title>CarMenuItem</title>
+    <link>https://quartz.jzhao.xyz/struct/CarMenuItem</link>
+    <guid>https://quartz.jzhao.xyz/struct/CarMenuItem</guid>
+    <description><![CDATA[  Auto-Generated Specs Struct: CarMenuItem Size: 1192 bytes Fields OffsetFieldTypeDescription0x0object_baseUIElement (refs: UIElement)UIElement]])0x478field_01_478undefined0x479field_02_479undefined0x47Afield_03_47Aundefined0x47Bfield_04_47Bundefined0x47Cfield_05_47Cundefined0x47Dfield_06_47Dundefine... ]]></description>
+    <pubDate>Sun, 15 Mar 2026 08:11:14 GMT</pubDate>
+  </item><item>
+    <title>CarMenuManagerProbably</title>
+    <link>https://quartz.jzhao.xyz/struct/CarMenuManagerProbably</link>
+    <guid>https://quartz.jzhao.xyz/struct/CarMenuManagerProbably</guid>
+    <description><![CDATA[  Auto-Generated Specs Struct: CarMenuManagerProbably Size: 35840 bytes Fields OffsetFieldTypeDescription0x0field_00_0undefined0x1field_01_1undefined0x2field_02_2undefined0x3field_03_3undefined0x4field_04_4undefined0x5field_05_5undefined0x6field_06_6undefined0x7field_07_7undefined0x8field_08_8undefin... ]]></description>
+    <pubDate>Sun, 15 Mar 2026 08:11:14 GMT</pubDate>
+  </item><item>
+    <title>FileHandle</title>
+    <link>https://quartz.jzhao.xyz/struct/FileHandle</link>
+    <guid>https://quartz.jzhao.xyz/struct/FileHandle</guid>
+    <description><![CDATA[  Auto-Generated Specs Struct: FileHandle Size: 72 bytes Fields OffsetFieldTypeDescription0x0field_00_0undefined0x1field_01_1undefined0x2field_02_2undefined0x3field_03_3undefined0x4BufferOffsetint0x8field_05_8undefined0x9field_06_9undefined0xAfield_07_Aundefined0xBfield_08_Bundefined0xCfield_09_Cunde... ]]></description>
+    <pubDate>Sun, 15 Mar 2026 08:11:14 GMT</pubDate>
+  </item><item>
+    <title>SlotDescriptor</title>
+    <link>https://quartz.jzhao.xyz/struct/SlotDescriptor</link>
+    <guid>https://quartz.jzhao.xyz/struct/SlotDescriptor</guid>
+    <description><![CDATA[  Auto-Generated Specs Struct: SlotDescriptor? Size: 16 bytes Fields OffsetFieldTypeDescription0x0pDatavoid *0x4AssetTypeint0x8field_02_8int0xCfield_03_Cint Analysis empty for now Manual Relations empty for now. ]]></description>
+    <pubDate>Sun, 15 Mar 2026 08:11:14 GMT</pubDate>
   </item>
     </channel>
   </rss>
