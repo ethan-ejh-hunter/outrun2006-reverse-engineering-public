@@ -5,6 +5,12 @@
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/Silly-Things</loc>
     <lastmod>2026-03-13T05:31:05.935Z</lastmod>
   </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/class/class_0x0026c728</loc>
+    <lastmod>2026-03-16T23:51:55.636Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/class/</loc>
+    <lastmod>2026-03-16T23:51:55.636Z</lastmod>
+  </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/daily_template</loc>
     <lastmod>2026-03-13T05:31:05.935Z</lastmod>
   </url><url>
@@ -12,130 +18,151 @@
     <lastmod>2026-03-12T18:59:32.857Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x0010</loc>
-    <lastmod>2026-03-15T08:11:14.554Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.636Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x0011</loc>
-    <lastmod>2026-03-15T08:11:14.562Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.636Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x0012</loc>
-    <lastmod>2026-03-15T08:11:14.562Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.636Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x0013</loc>
-    <lastmod>2026-03-13T05:31:05.939Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.640Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x0014</loc>
-    <lastmod>2026-03-15T08:11:14.565Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.640Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x0015</loc>
     <lastmod>2026-03-15T08:11:14.565Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x0016</loc>
-    <lastmod>2026-03-15T08:11:14.573Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.640Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x0017</loc>
-    <lastmod>2026-03-15T08:11:14.573Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.640Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x0018</loc>
-    <lastmod>2026-03-15T08:11:14.573Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.640Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x0019</loc>
-    <lastmod>2026-03-15T08:11:14.573Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.640Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x001a</loc>
-    <lastmod>2026-03-15T08:11:14.573Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.640Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x001b</loc>
-    <lastmod>2026-03-15T08:11:14.576Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.640Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x001c</loc>
-    <lastmod>2026-03-15T08:11:14.576Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.648Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x001d</loc>
-    <lastmod>2026-03-15T08:11:14.576Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.648Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x001e</loc>
-    <lastmod>2026-03-15T08:11:14.576Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.648Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x001f</loc>
-    <lastmod>2026-03-15T08:11:14.576Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.648Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x0020</loc>
-    <lastmod>2026-03-15T08:11:14.576Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.648Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x0021</loc>
-    <lastmod>2026-03-15T08:11:14.580Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.648Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x0022</loc>
-    <lastmod>2026-03-15T08:11:14.580Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.648Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x0023</loc>
-    <lastmod>2026-03-15T08:11:14.580Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.648Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x0024</loc>
-    <lastmod>2026-03-15T08:11:14.580Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.651Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x0025</loc>
-    <lastmod>2026-03-13T05:31:05.953Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.651Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x0026</loc>
-    <lastmod>2026-03-15T08:11:14.580Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.655Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x0027</loc>
-    <lastmod>2026-03-15T08:11:14.580Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.655Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x0028</loc>
-    <lastmod>2026-03-15T08:11:14.584Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.655Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x0029</loc>
-    <lastmod>2026-03-15T08:11:14.584Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.655Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x002a</loc>
-    <lastmod>2026-03-15T08:11:14.584Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.655Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x002b</loc>
-    <lastmod>2026-03-13T05:31:05.953Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.655Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x002c</loc>
     <lastmod>2026-03-13T05:31:05.953Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x002d</loc>
-    <lastmod>2026-03-15T08:11:14.584Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x002e</loc>
-    <lastmod>2026-03-13T05:31:05.957Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x002f</loc>
     <lastmod>2026-03-13T05:31:05.957Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x0030</loc>
-    <lastmod>2026-03-15T08:11:14.584Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x2010</loc>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x2011</loc>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x2016</loc>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x2017</loc>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x202a</loc>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/functions_0x202b</loc>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/function/</loc>
-    <lastmod>2026-03-15T08:11:14.595Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x00329</loc>
-    <lastmod>2026-03-15T08:11:14.595Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x0032b</loc>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x00345</loc>
-    <lastmod>2026-03-15T08:11:14.595Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x00353</loc>
     <lastmod>2026-03-12T18:01:55.567Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x00357</loc>
-    <lastmod>2026-03-12T18:01:55.567Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x00359</loc>
-    <lastmod>2026-03-15T08:11:14.595Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x0035a</loc>
-    <lastmod>2026-03-12T18:20:44.155Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x00369</loc>
     <lastmod>2026-03-15T08:11:14.595Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x00374</loc>
-    <lastmod>2026-03-12T18:20:44.155Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x00375</loc>
     <lastmod>2026-03-13T05:31:05.957Z</lastmod>
@@ -149,35 +176,44 @@
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x003b6</loc>
     <lastmod>2026-03-13T05:31:05.957Z</lastmod>
   </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x003c0</loc>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
+  </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x003c7</loc>
     <lastmod>2026-03-15T08:11:14.595Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x003f9</loc>
-    <lastmod>2026-03-15T08:11:14.595Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x00421</loc>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x00423</loc>
-    <lastmod>2026-03-13T05:31:05.957Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x00424</loc>
-    <lastmod>2026-03-12T18:01:55.567Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x0043f</loc>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x00443</loc>
     <lastmod>2026-03-15T08:11:14.595Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x00444</loc>
-    <lastmod>2026-03-12T18:20:44.155Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x00449</loc>
     <lastmod>2026-03-12T18:20:44.155Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x0044b</loc>
-    <lastmod>2026-03-15T08:11:14.595Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.659Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x00524</loc>
     <lastmod>2026-03-12T18:01:55.567Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x00531</loc>
-    <lastmod>2026-03-15T08:11:14.595Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x00532</loc>
     <lastmod>2026-03-12T18:01:55.567Z</lastmod>
@@ -186,10 +222,10 @@
     <lastmod>2026-03-12T18:20:44.155Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x0053b</loc>
-    <lastmod>2026-03-12T18:01:55.567Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x00549</loc>
-    <lastmod>2026-03-15T08:11:14.595Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x0059b</loc>
     <lastmod>2026-03-15T08:11:14.595Z</lastmod>
@@ -200,8 +236,11 @@
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x005bf</loc>
     <lastmod>2026-03-12T18:20:44.155Z</lastmod>
   </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x005d7</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x005e7</loc>
-    <lastmod>2026-03-15T08:11:14.595Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x10000</loc>
     <lastmod>2026-03-12T18:01:55.567Z</lastmod>
@@ -260,14 +299,17 @@
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x2035a</loc>
     <lastmod>2026-03-12T18:01:55.567Z</lastmod>
   </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x30200</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x3045a</loc>
     <lastmod>2026-03-12T18:01:55.567Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/</loc>
-    <lastmod>2026-03-15T08:11:14.595Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/</loc>
-    <lastmod>2026-03-15T08:11:14.598Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/logs/2026-03-12</loc>
     <lastmod>2026-03-15T08:11:14.598Z</lastmod>
@@ -278,23 +320,128 @@
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/logs/2026-03-14</loc>
     <lastmod>2026-03-15T08:11:14.598Z</lastmod>
   </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/logs/2026-03-16</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AllocedMemDescriptor</loc>
     <lastmod>2026-03-15T08:11:14.598Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AudioCommandBuffer</loc>
     <lastmod>2026-03-12T18:01:55.567Z</lastmod>
   </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass1</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass10</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass11</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass12</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass13</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass14</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass15</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass16</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass17</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass18</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass19</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass2</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass20</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass21</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass22</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass23</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass24</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass25</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass26</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass27</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass28</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass29</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass29_base_vtable</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass29_spec</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass2_base</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass2_base_vtable</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass3</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass30</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass4</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass5</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass6</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass7</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass8</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass9</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/BlockAllocatorBlock</loc>
-    <lastmod>2026-03-15T08:11:14.598Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/CarMenuItem</loc>
-    <lastmod>2026-03-15T08:11:14.598Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/CarMenuManagerProbably</loc>
-    <lastmod>2026-03-15T08:11:14.598Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/DefaultAllocator</loc>
-    <lastmod>2026-03-12T18:01:55.567Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/Elf32_Ehdr</loc>
     <lastmod>2026-03-10T15:03:20.835Z</lastmod>
@@ -309,13 +456,22 @@
     <lastmod>2026-03-10T15:03:20.835Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/FileHandle</loc>
-    <lastmod>2026-03-15T08:11:14.598Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/FileInterface</loc>
     <lastmod>2026-03-12T18:20:44.159Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/Heap_FreeBlock</loc>
     <lastmod>2026-03-12T18:20:44.159Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/IO_FILE</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/IO_marker</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
+  </url><url>
+    <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/Matrix4x4</loc>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/PackedFloat</loc>
     <lastmod>2026-03-12T18:20:44.159Z</lastmod>
@@ -339,7 +495,7 @@
     <lastmod>2026-03-13T05:31:05.961Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/UIElement</loc>
-    <lastmod>2026-03-15T08:11:14.598Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/UIElement_VTable</loc>
     <lastmod>2026-03-12T18:01:55.567Z</lastmod>
@@ -348,7 +504,7 @@
     <lastmod>2026-03-12T18:01:55.567Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/</loc>
-    <lastmod>2026-03-15T08:11:14.598Z</lastmod>
+    <lastmod>2026-03-16T23:51:55.662Z</lastmod>
   </url><url>
     <loc>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/astruct</loc>
     <lastmod>2026-03-10T15:03:20.835Z</lastmod>
