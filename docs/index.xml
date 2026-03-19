@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>globals_0x00531</title>
-    <link>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x00531</link>
-    <guid>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x00531</guid>
-    <description><![CDATA[ Global Range 0x00531 Total globals: 4 0x005311C0 g_AudioCommandBuffer Auto-Generated Specs Symbol: g_AudioCommandBuffer Type: AudioCommandBuffer *[2] (refs: AudioCommandBuffer) Source: USER_DEFINED Size: 8 Referenced By: FUN_0011aa10, setup_audio_command_buffer, AudioEnqueCommand, FUN_0011ac60, FUN_... ]]></description>
-    <pubDate>Mon, 16 Mar 2026 23:51:55 GMT</pubDate>
+    <title>AutoClass39</title>
+    <link>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass39</link>
+    <guid>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass39</guid>
+    <description><![CDATA[  Auto-Generated Specs Struct: AutoClass39 Size: 8020 bytes Fields OffsetFieldTypeDescription0x0baseAutoClass29 (refs: AutoClass29)0x4Cfield_01_4Cundefined0x4Dfield_02_4Dundefined0x4Efield_03_4Eundefined0x4Ffield_04_4Fundefined0x50field_05_50undefined0x51field_06_51undefined0x52field_07_52undefined0x... ]]></description>
+    <pubDate>Thu, 19 Mar 2026 14:34:27 GMT</pubDate>
   </item><item>
-    <title>globals_0x0053b</title>
-    <link>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x0053b</link>
-    <guid>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x0053b</guid>
-    <description><![CDATA[ Global Range 0x0053b Total globals: 2 0x0053B384 g_MCServeVersion Auto-Generated Specs Symbol: g_MCServeVersion Type: undefined4 Source: USER_DEFINED Size: 4 Referenced By: sceMcInit null Analysis empty for now Manual Relations empty for now 0x0053B388 g_mcManVersion Auto-Generated Specs Symbol: g_m... ]]></description>
-    <pubDate>Mon, 16 Mar 2026 23:51:55 GMT</pubDate>
+    <title>AutoClass4</title>
+    <link>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass4</link>
+    <guid>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass4</guid>
+    <description><![CDATA[  Auto-Generated Specs Struct: AutoClass4 Size: 12 bytes Fields OffsetFieldTypeDescription0x0baseAutoClass2 (refs: AutoClass2)AutoClass2]]) Analysis empty for now Manual Relations empty for now. ]]></description>
+    <pubDate>Thu, 19 Mar 2026 14:34:27 GMT</pubDate>
   </item><item>
-    <title>globals_0x00549</title>
-    <link>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x00549</link>
-    <guid>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x00549</guid>
-    <description><![CDATA[ Global Range 0x00549 Total globals: 6 0x005497E0 pointer_to_array_of_file_ops Auto-Generated Specs Symbol: pointer_to_array_of_file_ops Type: undefined4 Source: USER_DEFINED Size: 4 Referenced By: fopen, setup_file_io, FUN_0016ed88, close_file? null Analysis empty for now Manual Relations empty for ... ]]></description>
-    <pubDate>Mon, 16 Mar 2026 23:51:55 GMT</pubDate>
+    <title>AutoClass40</title>
+    <link>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass40</link>
+    <guid>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass40</guid>
+    <description><![CDATA[  Auto-Generated Specs Struct: AutoClass40 Size: 60 bytes Fields OffsetFieldTypeDescription0x0field_00_0undefined40x4field_01_4undefined40x8field_02_8undefined40xCfield_03_Cundefined80x14field_04_14undefined40x18field_05_18undefined0x19field_06_19undefined0x1Afield_07_1Aundefined0x1Bfield_08_1Bundefi... ]]></description>
+    <pubDate>Thu, 19 Mar 2026 14:34:27 GMT</pubDate>
   </item><item>
-    <title>globals_0x005d7</title>
-    <link>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x005d7</link>
-    <guid>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x005d7</guid>
-    <description><![CDATA[ Global Range 0x005d7 Total globals: 1 0x005D7C20 g_Language? Auto-Generated Specs Symbol: g_Language? Type: undefined4 Source: USER_DEFINED Size: 4 Referenced By: return_unk_global, set_g_language null Analysis empty for now Manual Relations empty for now. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 23:51:55 GMT</pubDate>
+    <title>AutoClass41</title>
+    <link>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass41</link>
+    <guid>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass41</guid>
+    <description><![CDATA[  Auto-Generated Specs Struct: AutoClass41 Size: 1048 bytes Fields OffsetFieldTypeDescription0x0field_00_0undefined0x1field_01_1undefined0x2field_02_2undefined0x3field_03_3undefined0x4field_04_4undefined40x8field_05_8undefined40xCfield_06_Cundefined40x10field_07_10undefined40x14field_08_14undefined0x... ]]></description>
+    <pubDate>Thu, 19 Mar 2026 14:34:27 GMT</pubDate>
   </item><item>
-    <title>globals_0x005e7</title>
-    <link>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x005e7</link>
-    <guid>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x005e7</guid>
-    <description><![CDATA[ Global Range 0x005e7 Total globals: 2 0x005E7350 g_HeapStack Auto-Generated Specs Symbol: g_HeapStack Type: HeapType[4] Source: USER_DEFINED Size: 16 Referenced By: Mem_GetCurrentHeap, MEM_PushNewHeap, MEM_PopHeap { &quot;kind&quot;: &quot;array&quot;, &quot;element_type&quot;: &quot;HeapType&quot;,... ]]></description>
-    <pubDate>Mon, 16 Mar 2026 23:51:55 GMT</pubDate>
+    <title>AutoClass5</title>
+    <link>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass5</link>
+    <guid>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass5</guid>
+    <description><![CDATA[  Auto-Generated Specs Struct: AutoClass5 Size: 12 bytes Fields OffsetFieldTypeDescription0x0baseAutoClass2 (refs: AutoClass2)AutoClass2]]) Analysis empty for now Manual Relations empty for now. ]]></description>
+    <pubDate>Thu, 19 Mar 2026 14:34:27 GMT</pubDate>
   </item><item>
-    <title>globals_0x30200</title>
-    <link>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x30200</link>
-    <guid>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/globals_0x30200</guid>
-    <description><![CDATA[ Global Range 0x30200 Total globals: 1 0x30200000 StartOfMassiveBlock Auto-Generated Specs Symbol: StartOfMassiveBlock Type: undefined Source: USER_DEFINED Size: 1 Referenced By: none &quot;0x44&quot; Analysis empty for now Manual Relations empty for now. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 23:51:55 GMT</pubDate>
+    <title>AutoClass6</title>
+    <link>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass6</link>
+    <guid>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass6</guid>
+    <description><![CDATA[  Auto-Generated Specs Struct: AutoClass6 Size: 6055 bytes Fields OffsetFieldTypeDescription0x0baseAutoClass2 (refs: AutoClass2)AutoClass2]])0xCfield_01_Cundefined0xDfield_02_Dundefined0xEfield_03_Eundefined0xFfield_04_Fundefined0x10field_05_10undefined0x11field_06_11undefined0x12field_07_12undefined... ]]></description>
+    <pubDate>Thu, 19 Mar 2026 14:34:27 GMT</pubDate>
   </item><item>
-    <title>index</title>
-    <link>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/</link>
-    <guid>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/global/</guid>
-    <description><![CDATA[ Global Index Total: 285 _mips_gp0_value alpha_num_str array_of_file_ops AutoClass10_vtable_00424260 AutoClass11_base_vtable_00424170 AutoClass12_vtable_00424118 AutoClass13_base_vtable_00424078 AutoClass15_base_vtable_00423e80 AutoClass17_vtable_00423c98 AutoClass18_vtable_00423b80 AutoClass19_vtabl... ]]></description>
-    <pubDate>Mon, 16 Mar 2026 23:51:55 GMT</pubDate>
+    <title>AutoClass7</title>
+    <link>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass7</link>
+    <guid>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass7</guid>
+    <description><![CDATA[  Auto-Generated Specs Struct: AutoClass7 Size: 12 bytes Fields OffsetFieldTypeDescription0x0baseAutoClass2 (refs: AutoClass2)AutoClass2]]) Analysis empty for now Manual Relations empty for now. ]]></description>
+    <pubDate>Thu, 19 Mar 2026 14:34:27 GMT</pubDate>
   </item><item>
-    <title>index</title>
-    <link>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/</link>
-    <guid>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/</guid>
-    <description><![CDATA[ Obsidian Vault Index Function Index Global Index Struct Index Class Index Introduction Hey! This is a project I’m working on in my free time, to learn more about Outrun 2006: Coast 2 Coast’s internals, and to have fun doing it. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 23:51:55 GMT</pubDate>
+    <title>AutoClass8</title>
+    <link>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass8</link>
+    <guid>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass8</guid>
+    <description><![CDATA[  Auto-Generated Specs Struct: AutoClass8 Size: 12 bytes Fields OffsetFieldTypeDescription0x0baseAutoClass2 (refs: AutoClass2)AutoClass2]]) Analysis empty for now Manual Relations empty for now. ]]></description>
+    <pubDate>Thu, 19 Mar 2026 14:34:27 GMT</pubDate>
   </item><item>
-    <title>2026-03-16</title>
-    <link>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/logs/2026-03-16</link>
-    <guid>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/logs/2026-03-16</guid>
-    <description><![CDATA[ RE Daily: 2026-03-16 So I’m running into a pretty major roadblock. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 23:51:55 GMT</pubDate>
+    <title>AutoClass9</title>
+    <link>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass9</link>
+    <guid>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass9</guid>
+    <description><![CDATA[  Auto-Generated Specs Struct: AutoClass9 Size: 12 bytes Fields OffsetFieldTypeDescription0x0baseAutoClass2 (refs: AutoClass2)AutoClass2]]) Analysis empty for now Manual Relations empty for now. ]]></description>
+    <pubDate>Thu, 19 Mar 2026 14:34:27 GMT</pubDate>
   </item><item>
-    <title>AutoClass1</title>
-    <link>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass1</link>
-    <guid>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/AutoClass1</guid>
-    <description><![CDATA[  Auto-Generated Specs Struct: AutoClass1 Size: 12 bytes Fields OffsetFieldTypeDescription0x0baseAutoClass2 (refs: AutoClass2)AutoClass2]]) Analysis empty for now Manual Relations empty for now. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 23:51:55 GMT</pubDate>
+    <title>BlockAllocatorBlock</title>
+    <link>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/BlockAllocatorBlock</link>
+    <guid>https://ethan-ejh-hunter.github.io/outrun2006-reverse-engineering-public/struct/BlockAllocatorBlock</guid>
+    <description><![CDATA[  Auto-Generated Specs Struct: BlockAllocatorBlock Size: 16 bytes Fields OffsetFieldTypeDescription0x0memory_being_managedvoid *0x4next_free_structBlockAllocatorBlock * (refs: BlockAllocatorBlock)BlockAllocatorBlock]])0x8chunk_sizeint0xCfree_headBlockAllocatorBlock * (refs: BlockAllocatorBlock)BlockA... ]]></description>
+    <pubDate>Thu, 19 Mar 2026 14:34:27 GMT</pubDate>
   </item>
     </channel>
   </rss>
