@@ -39,6 +39,65 @@ const defaultOptions: Options = {
   includeEmptyFiles: true,
 }
 
+function shouldUseSymbolOnlyContent(filePath: FilePath): boolean {
+  const normalizedPath = filePath.toLowerCase()
+  return (
+    normalizedPath.includes("/functions_") ||
+    normalizedPath.includes("/globals_") ||
+    normalizedPath.includes("/fun_") ||
+    normalizedPath.includes("/class_") ||
+    normalizedPath.startsWith("class/") ||
+    normalizedPath.startsWith("struct/")
+  )
+}
+
+function extractSymbolNamesFromContent(
+  content: string,
+  metadata?: {
+    title?: unknown
+    currentName?: unknown
+    aliases?: unknown
+  },
+): string {
+  const symbolNames: string[] = []
+  const seen = new Set<string>()
+  const addSymbolName = (symbolName?: unknown) => {
+    if (typeof symbolName !== "string") {
+      return
+    }
+
+    const trimmed = symbolName.trim()
+    if (trimmed && !seen.has(trimmed)) {
+      seen.add(trimmed)
+      symbolNames.push(trimmed)
+    }
+  }
+
+  addSymbolName(metadata?.currentName)
+  addSymbolName(metadata?.title)
+  if (Array.isArray(metadata?.aliases)) {
+    for (const alias of metadata.aliases) {
+      if (typeof alias === "string") {
+        addSymbolName(alias)
+      }
+    }
+  }
+
+  const symbolHeadingRegex = /^##\s+0x[0-9a-f]+\s+(.+)$/gim
+
+  for (const match of content.matchAll(symbolHeadingRegex)) {
+    addSymbolName(match[1])
+  }
+
+  // Capture names shown in wiki-link display text, e.g. [[path#anchor|Symbol::Name]].
+  const wikiLinkLabelRegex = /\[\[[^\]|]+\|([^\]]+)\]\]/g
+  for (const match of content.matchAll(wikiLinkLabelRegex)) {
+    addSymbolName(match[1])
+  }
+
+  return symbolNames.join("\n")
+}
+
 function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndexMap): string {
   const base = cfg.baseUrl ?? ""
   const createURLEntry = (slug: SimpleSlug, content: ContentDetails): string => `<url>
@@ -101,15 +160,24 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       const linkIndex: ContentIndexMap = new Map()
       for (const [tree, file] of content) {
         const slug = file.data.slug!
+        const filePath = file.data.relativePath!
+        const rawContent = file.data.text ?? ""
+        const indexableContent = shouldUseSymbolOnlyContent(filePath)
+          ? extractSymbolNamesFromContent(rawContent, {
+              title: file.data.frontmatter?.title,
+              currentName: file.data.frontmatter?.current_name,
+              aliases: file.data.frontmatter?.aliases,
+            })
+          : rawContent
         const date = getDate(ctx.cfg.configuration, file.data) ?? new Date()
         if (opts?.includeEmptyFiles || (file.data.text && file.data.text !== "")) {
           linkIndex.set(slug, {
             slug,
-            filePath: file.data.relativePath!,
+            filePath,
             title: file.data.frontmatter?.title!,
             links: file.data.links ?? [],
             tags: file.data.frontmatter?.tags ?? [],
-            content: file.data.text ?? "",
+            content: indexableContent,
             richContent: opts?.rssFullHtml
               ? escapeHTML(toHtml(tree as Root, { allowDangerousHtml: true }))
               : undefined,

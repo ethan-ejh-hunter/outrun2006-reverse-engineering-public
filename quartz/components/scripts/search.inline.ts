@@ -88,6 +88,18 @@ const fetchContentCache: Map<FullSlug, Element[]> = new Map()
 const contextWindowWords = 30
 const numSearchResults = 8
 const numTagResults = 5
+const maxIndexedContentChars = 4000
+
+function normalizeContentForIndexing(content: string): string {
+  if (!content) return ""
+
+  const normalized = content.replace(/\s+/g, " ").trim()
+  if (normalized.length <= maxIndexedContentChars) {
+    return normalized
+  }
+
+  return normalized.slice(0, maxIndexedContentChars)
+}
 
 const tokenizeTerm = (term: string) => {
   const tokens = term.split(/\s+/).filter((t) => t.trim() !== "")
@@ -515,12 +527,13 @@ async function fillDocument(data: ContentIndex) {
   let id = 0
   const promises: Array<Promise<unknown>> = []
   for (const [slug, fileData] of Object.entries<ContentDetails>(data)) {
+    const entryId = id++
     promises.push(
-      index.addAsync(id++, {
-        id,
+      index.addAsync(entryId, {
+        id: entryId,
         slug: slug as FullSlug,
         title: fileData.title,
-        content: fileData.content,
+        content: normalizeContentForIndexing(fileData.content),
         tags: fileData.tags,
       }),
     )

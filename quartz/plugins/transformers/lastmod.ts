@@ -82,12 +82,12 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
                   const relativePath = path.relative(repositoryWorkdir, fullFp)
                   modified ||= await repo.getFileLatestModifiedDateAsync(relativePath)
                 } catch {
-                  console.log(
-                    styleText(
-                      "yellow",
-                      `\nWarning: ${file.data.filePath!} isn't yet tracked by git, dates will be inaccurate`,
-                    ),
-                  )
+                  // console.log(
+                  //   styleText(
+                  //     "yellow",
+                  //     `\nWarning: ${file.data.filePath!} isn't yet tracked by git, dates will be inaccurate`,
+                  //   ),
+                  // )
                 }
               }
             }
